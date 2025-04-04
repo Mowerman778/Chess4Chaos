@@ -1,0 +1,22 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 96vw;
+    height: 96vh;
+    margin: auto;
+}
+
+.cell {
+    aspect-ratio: 1;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
+
+.north { background-color: #ffe6e6; }
+.south { background-color: #e6ffe6; }
+.east { background-color: #e6f2ff; }
+.west { background-color: #fff0e6; }
